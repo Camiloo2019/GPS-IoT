@@ -11,12 +11,12 @@ The main objective of this project is to develop a GPS tracking system using an 
 
 The project requires the following components:
 
-- ESP32 microcontroller
-- GPS module (e.g., Ublox NEO-6M)
+- ESP32 Lolin Wemos
+- GPS module (e.g., GPS NEO-6M)
 - Breadboard or PCB for prototyping
 - Jumper wires for connections
-- Power source (e.g., battery or USB power bank)
-- Optional: Display module (e.g., OLED display) for visualizing GPS data
+- Power source (e.g., battery (5.0 V) or USB power bank)
+
 
 ## Circuit Diagram
 
