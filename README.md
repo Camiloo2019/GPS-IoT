@@ -37,7 +37,8 @@ The ESP32 reads NMEA sentences transmitted by the GPS module. It extracts essent
 
 3. Data Logging: The project can incorporate an SD card module to log GPS data over extended periods. This logged data can later be analyzed or visualized for further analysis.
 
-In this case this project was for Real-time **Position Tracking**.
+In this case, this project was for **Real-time Position Tracking**. The data taken by the GPS module was uploaded to a server where the final position was displayed on the map through an API.
+
 
 ## Software Implementation
 
