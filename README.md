@@ -22,7 +22,9 @@ The project requires the following components:
 
 Here is a simplified circuit diagram illustrating the connections:
 
-![Montaje en digital](Images/des.png "Montaje en digital")
+| ![Montaje en digital](/Images/des.png "Montaje en digital") | ![Montaje fisico](/Images/Montaje_fisico.png "MOntaje fisico") |
+|:---:|:---:|
+| Assembly in Proteus | Physical assembly |
 
 
 
