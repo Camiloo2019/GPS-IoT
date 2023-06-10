@@ -22,15 +22,7 @@ The project requires the following components:
 
 Here is a simplified circuit diagram illustrating the connections:
 
-    +-----------------------+
-    |                       |
-    |         ESP32         |
-    |                       |
-    |       +---------+     |
-    |       |   GPS   |     |
-    |       +---------+     |
-    |                       |
-    +-----------------------+
+![Montaje en digital](/Images/Montaje_arquitectura.png "Montaje en digital")
 
 
 
