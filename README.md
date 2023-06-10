@@ -26,7 +26,7 @@ Here is a simplified circuit diagram illustrating the connections:
 |:---:|:---:|
 | Assembly in Proteus | Physical assembly |
 
-
+a
 
 ## Functionality
 
