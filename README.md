@@ -26,7 +26,6 @@ Here is a simplified circuit diagram illustrating the connections:
 |:---:|:---:|
 | Assembly in Proteus | Physical assembly |
 
-a
 
 ## Functionality
 
@@ -48,9 +47,9 @@ To implement this project, you will need to:
 
 2. Install the necessary libraries for GPS parsing and communication (<TinyGPS++>, <SoftwareSerial.h>, <WiFi.h> ).
 
-3. Create a sketch that configures the ESP32 and establishes communication with the GPS module.
+3. Create a [sketch](https://github.com/Camiloo2019/GPS-IoT/blob/main/GPS.ino) that configures the ESP32 and establishes communication with the GPS module.
 
-4. Implement the parsing logic to extract essential GPS information from the received NMEA sentences.
+4. Implement the parsing logic to extract essential GPS information from the received NMEA sentences and send to a server. 
 
-5. Utilize the extracted GPS data for the desired functionalities, such as real-time tracking, geofencing, or data logging.
+
 
