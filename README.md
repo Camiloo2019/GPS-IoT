@@ -52,7 +52,7 @@ To implement this project, you will need to:
 
 1. Set up the development environment for ESP32 using the Arduino IDE or any compatible development platform.
 
-2. Install the necessary libraries for GPS parsing and communication (e.g., TinyGPS++ or TinyGPS).
+2. Install the necessary libraries for GPS parsing and communication (<TinyGPS++>, <SoftwareSerial.h>, <WiFi.h> ).
 
 3. Create a sketch that configures the ESP32 and establishes communication with the GPS module.
 
@@ -60,10 +60,3 @@ To implement this project, you will need to:
 
 5. Utilize the extracted GPS data for the desired functionalities, such as real-time tracking, geofencing, or data logging.
 
-## Conclusion
-
-By combining an ESP32 microcontroller with a GPS module, this project enables GPS tracking and position monitoring. The ESP32 processes the GPS data to provide real-time tracking, geofencing capabilities, data logging, and a user interface for displaying relevant information.
-
-The possibilities for further expansion and customization are extensive, allowing you to tailor the project to your specific requirements.
-
-Happy coding and exploring the world of GPS tracking with ESP32!
