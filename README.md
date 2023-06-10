@@ -22,7 +22,7 @@ The project requires the following components:
 
 Here is a simplified circuit diagram illustrating the connections:
 
-![Montaje en digital](Montaje_arquitectura.png "ESP32 wemos lolin")
+![Montaje en digital](/Images/Montaje_arquitectura.png "Montaje en digital")
 
 
 
