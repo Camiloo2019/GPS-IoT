@@ -14,15 +14,15 @@ WiFiServer server(80);
 
 void setup()
 {
-  Serial.begin(115200);
-  ss.begin(9600);
+  Serial.begin(115200);//Serial communication with a baud rate of 115200
+  ss.begin(9600); //Additional serial communication with a baud rate of 9600
   Serial.println();
   Serial.print("Connecting to ");
   Serial.println(ssid);
   WiFi.begin(ssid, pass); //Connecting to wifi
   while (WiFi.status() != WL_CONNECTED)// While wifi not connected
   {
-    delay(500);
+    delay(500); //Introduce a delay of 500 milliseconds
     Serial.print("."); //print "...."
   }
   Serial.println("");
@@ -35,8 +35,8 @@ void setup()
 
 void loop()
 {
-  while (ss.available() > 0) //While data is available
-    if (gps.encode(ss.read())) //Read gps data (In this case we used GPS neo 6m)
+  while (ss.available() > 0) // While data is available
+    if (gps.encode(ss.read())) // Read gps data (In this case we used GPS neo 6m)
     {
       if (gps.location.isValid()) //Check whether gps location is valid
       {
@@ -50,7 +50,7 @@ void loop()
         date_str = "";
         date = gps.date.day();
         month = gps.date.month();
-        year = gps.date.year();
+        year = gps.date.year(); // Assigns the value from object to the variable
         if (date < 10)
           date_str = '0';
         date_str += String(date);// Values of date,month and year are stored in a string
