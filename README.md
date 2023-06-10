@@ -16,6 +16,7 @@ The project requires the following components:
 - Breadboard or PCB for prototyping
 - Jumper wires for connections
 - Power source (e.g., battery (5.0 V) or USB power bank)
+a
 
 
 ## Circuit Diagram
