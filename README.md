@@ -37,7 +37,7 @@ The ESP32 reads NMEA sentences transmitted by the GPS module. It extracts essent
 
 3. Data Logging: The project can incorporate an SD card module to log GPS data over extended periods. This logged data can later be analyzed or visualized for further analysis.
 
-4. User Interface: If an optional display module is integrated, the ESP32 can showcase real-time GPS data, including latitude, longitude, altitude, and speed. Additionally, it can display additional information like signal strength and satellite count.
+In this case this project was for Real-time **Position Tracking**.
 
 ## Software Implementation
 
@@ -45,7 +45,7 @@ To implement this project, you will need to:
 
 1. Set up the development environment for ESP32 using the Arduino IDE or any compatible development platform.
 
-2. Install the necessary libraries for GPS parsing and communication (<TinyGPS++>, <SoftwareSerial.h>, <WiFi.h> ).
+2. Install the necessary libraries for GPS parsing and communication (<TinyGPS++>,<SoftwareSerial.h>, <WiFi.h>).
 
 3. Create a [sketch](https://github.com/Camiloo2019/GPS-IoT/blob/main/GPS.ino) that configures the ESP32 and establishes communication with the GPS module.
 
