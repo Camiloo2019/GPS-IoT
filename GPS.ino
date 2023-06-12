@@ -56,7 +56,7 @@ void loop()
         date_str += String(date);// Values of date,month and year are stored in a string
         date_str += " / ";
 
-        if (month < 10)
+        if (month < 10) 
           date_str += '0';
         date_str += String(month); // Values of date,month and year are stored in a string
         date_str += " / ";
