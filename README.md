@@ -51,6 +51,3 @@ To implement this project, you will need to:
 3. Create a [sketch](https://github.com/Camiloo2019/GPS-IoT/blob/main/GPS.ino) that configures the ESP32 and establishes communication with the GPS module.
 
 4. Implement the parsing logic to extract essential GPS information from the received NMEA sentences and send to a server. 
-
-
-
